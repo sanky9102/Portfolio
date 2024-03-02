@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio_website</title>
+    <script
+      src="https://kit.fontawesome.com/8001600bc3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <video autoplay muted loop id="header-video">
+        <source src="new_background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="container">
+        <nav>
+          <img src="S-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          
+          <h1>
+            Hi, I'm <span>Sanket</span> <br />
+            Pawar.
+          </h1>
+      
+        </div>
+        <div class="social-icons-home">
+          
+          <a href="https://www.linkedin.com/in/sanket-pawar-81467720a/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/sanky9102"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="C:\Users\HP\Desktop/Sanket.pdf" download class="btn btn2"
+              >Download CV</a>
+      </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------about --------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="B.jpg" class="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <h6>
+              My name is Sanket Sanjay Pawar, and I'm a passionate engineer and cloud enthusiast. 
+            </h6>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+             
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Languages</span><br/><i class="fa-solid fa-circle-c"></i>C++</li><i class ="fab fa-python ">JAVA</i></li>
+                  <li><span>Skills</span><br /><i class="fa fa-linux"></i>LINUX<i class="fa-brands fa-codepen"></i>Visual Studio<i class="fa fa-github"></i>GIT<i class='fas fa-network-wired'></i>NETWORKING<i class='fab fa-aws'></i>AWS</li>
+                  <li><span>Tools/Database</span><br /><i class='fab fa-docker'></i> DOCKER<i> TERRAFORM</i><i class="fa-solid fa-database"></i>SQL</li> 
+                </ul>
+             </div>
+            
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>K. K. Wagh Institute Of Engineering Education And Research, NASHIK</span><br /><p>2020-2023 </p><br/><p>MASTER OF COMPUTER APPLICATION.</p></li>
+                <li><span>K.R.T. Arts, B.H. Commerce & A.M. Science College, NASHIK</span><br /><p>2017-2020</p><br/>Bachelor of  Computer Science </li>
+                <li><span>Adarsh Vidya Mandir,Dhule</span><br /><p>2016-2017</p><br/>Higher Secondary College</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- ---------------------------------portfolio-------------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects & Certificate</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="analytics-background-book-business.jpg" />
+            <div class="layer">
+              <h3>Deploying-a-Multi-Tier-Website-Using-AWS-EC2Deploying-a-Multi-Tier-Website-Using-AWS-EC2
+              </h3>
+              <p>Using  AWS EC2, ELB, AUTOSCALING , IAM Application deploymwnt environment is created.
+              </p>
+			  <a href="https://github.com/sanky9102/Deploying-a-Multi-Tier-Website-Using-AWS-EC2.git"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="data-protection-security-concept.jpg" />
+            <div class="layer">
+              <h3>CCE IIT Madras -Advanced Certification in DevOps & Cloud
+				Computing</h3>
+              <a href="https://drive.google.com/file/d/1NTihMllZkgh-fIVWBdoNQsZruqXZK-b_/view?usp=sharing"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+         </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ------------------------Contact------------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >sanketpawar9102@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>848391218</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/sanket-pawar-81467720a/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/sanky9102"><i class="fa-brands fa-github"></i></a>
+              <a href="https://instagram.com/_nushka92?igshid=OTJhZDVkZWE="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="C:\Users\HP\Desktop/Sanket.pdf" download class="btn btn2"
+              >Download CV</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------- -->
+
+    <!-- <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>-->
+
+    <!--<script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwh0esGQ9o_20yomekCz9DxTLhGEhjG7LVLqwjMc33JEktHMVffpKSlsiXCUT2zaWHR/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg")
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML =""
+          },5000)
+          form.reset()
+        })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>-->
+  </body>
+</html>
